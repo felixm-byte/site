@@ -3,7 +3,6 @@ import { useColorMode } from 'theme-ui'
 import Link from 'next/link'
 import Icon from './icon'
 import Avatar from './avatar'
-
 const ColorButton = ({ mode, sx, ...props }) => (
   <Box
     as="button"
@@ -40,10 +39,8 @@ const ColorButton = ({ mode, sx, ...props }) => (
     </svg>
   </Box>
 )
-
 export default props => {
   const [mode, setMode] = useColorMode()
-
   return (
     <>
       <Flex

@@ -1,13 +1,8 @@
-
 import base from '@rebass/preset'
 import { merge } from 'lodash'
-
 export const breakpoints = [32, 48, 64].map(w => `${w}em`)
-
 export const space = [0, 4, 8, 16, 32, 64, 128, 256, 512]
-
 export const fontSizes = [14, 16, 20, 24, 32, 48, 64, 96, 128]
-
 export const palette = {
   darker: '#121217',
   dark: '#17171d',
@@ -54,7 +49,6 @@ export const palette = {
   coolWash: '#7cecff',
   lemonade: '#ff5a5f'
 }
-
 const theme = merge(base, {
   breakpoints,
   space,
@@ -195,5 +189,4 @@ const theme = merge(base, {
     }
   }
 })
-
 export default theme

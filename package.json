@@ -4,11 +4,10 @@
   "private": true,
   "author": "@lachlanjc and AngelHacks <hello@angelhacks.org>",
   "license": "MIT",
-"scripts": {
-  "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
-  "build": "NODE_OPTIONS=--openssl-legacy-provider next build && next export",
-  "start": "next start"
-},
+  "scripts": {
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && node_modules/.bin/next build && node_modules/.bin/next export",
+    "start": "node_modules/.bin/next"
+  },
   "dependencies": {
     "@emotion/styled": "^10.0.15",
     "@hackclub/icons": "^0.0.2",
