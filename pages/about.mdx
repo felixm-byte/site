@@ -8,47 +8,39 @@ import Photo from '../components/photo'
 
 </Header>
 
-<Container
-width="narrow"
-sx={{
+<Container width="narrow"
+  sx={{
     h1: {
-        color: 'altDark',
-        fontSize: 5,
-        fontWeight: 'mediumbold'
+      fontSize: 5,
+      fontWeight: 'bold'
+    },
+    strong: {
+      color: 'alt'
     }
-}}>
-
-# Venue
-
-</Container>
-
-<Gallery>
-
-<Photo showAlt alt="We've got a garden! Just make sure you don't eat the tomatoes…" src="https://angelhacks.org/static/venue/outdoors1.jpg" />
-<Photo showAlt alt="The place where you'll spend the majority of your time hacking." src="https://angelhacks.org/static/venue/general.jpg" />
-
-</Gallery>
-
-<Container width="narrow">
+  }}>
 
 # Themes
 
-AngelHacks is dedicated to giving back to the community—and we do that in part by encouraging students to make projects that do exactly that!
+AngelHacks is dedicated to giving back to the community—and we do that in part by encouraging students to make projects that do exactly that! We'll be giving 3 prizes to each category on top of the general prize -- that means, even if you don't win the overall prize, you can still get a cool award just by winning a category!
 
 </Container>
 
-<Gallery>
+<Gallery sx={{
+    '> div': {
+        bg: 'smoke'
+    },
+}}>
 
 <Box variant="card"
 sx={{
-        h2: {
-            color: 'success',
-        },
+    h2: {
+        color: 'accent',
+    },
     }}>
 
 ## Environment
 
-Make something that helps the environment. It may seem like a hard thing, but remember, the small things count!
+Make something that helps the environment. It may seem like a hard thing, but remember, the small things count! Ship projects that count someone's carbon emissions, or tell you the truth about each state's pollution regulations. Be creative -- what does the environment mean to you? It doesn't have to be just the greenery, it could be how other people interact, or how the people around you behave.
 
 </Box>
 
@@ -61,25 +53,17 @@ sx={{
 
 ## Education
 
-A major goal of AngelHacks is to improve education—especially in computer science. Your project can help achieve this goal!
-
-</Box>
-
-<Box variant="card"
-sx={{
-        h2: {
-            color: 'primary',
-        },
-    }} >
-
-## Artificial Intelligence
-
-AI is an up and coming technology and everyone is hyped up about it. Create a chat bot, or a computer vision program, or something that utilizes machine learning to get special prizes!
+A major goal of AngelHacks is to improve education—especially in computer science. Your project can help achieve this goal! Make a project that encourages students to make a mini-site, help teachers grade homework, create an online notes sharing pod, and more! We want you make a feasible project that can have a real impact on the community and beyond.
 
 </Box>
 
 </Gallery>
-<Container width="narrow">
+<Container width="narrow"
+    sx={{
+        h1: {
+            fontWeight:"bold"
+        }
+    }}>
 
 # We’re driven by a mission.
 
@@ -91,6 +75,6 @@ AngelHacks is dedicated in encourage students to learn computer science—at jus
 
 Starting to code has a lasting impact. Once you begin coding, you switch from being a consumer to being a creator. We want to make everyone a creator—it’s a magical transformation. You can solve problems your way, bounded only by your imagination.
 
-We know this because we’re the leaders of the [Hack Club](https://hackclub/) at Ad Astra School, where we have good infrastructure for students to learn to code. Now, we want to bring that experience to everyone. This is a hackathon by the students, for the students, and for the future of all of Los Angeles.
+We know this because we’re the leaders of the [Hack Club](https://hackclub.com/) at Ad Astra School, where we have good infrastructure for students to learn to code. Now, we want to bring that experience to everyone. This is a hackathon by the students, for the students, and for the future of all of Los Angeles.
 
 </Container>

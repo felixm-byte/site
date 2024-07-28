@@ -1,3 +1,4 @@
+
 import base from '@rebass/preset'
 import { merge } from 'lodash'
 
@@ -11,6 +12,7 @@ export const palette = {
   darker: '#121217',
   dark: '#17171d',
   darkless: '#252429',
+  bandark: '#1b1a1f',
   // greyscale
   black: '#1f2d3d',
   steel: '#273444',
@@ -75,11 +77,14 @@ const theme = merge(base, {
         background: palette.dark,
         cards: palette.darkless,
         sunken: palette.black,
-        primaryWash: '#3f3822',
-        bannerBG: palette.darkless,
+        // primaryWash: '#3f3822',
+        primaryWash: palette.primaryWash,
+        bannerBG: palette.bandark,
+        //bannerColor: palette.primary,
         bannerColor: palette.coolWash,
-        bannerColorAlt: palette.white,
-        coolBg: palette.dark
+        bannerColorAlt: palette.primaryWash,
+        coolBg: palette.dark,
+        cards: palette.darkless,
       }
     }
   },
