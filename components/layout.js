@@ -62,19 +62,20 @@ export default props => {
             variant="styles.navitem"
             sx={{ display: ['none', 'block'], fontWeight: 'mediumbold' }}
           >
-            AngelHacks
+            Hack for Tomorrow
           </A>
         </Link>
-        <Box sx={{ mx: 'auto' }} />
+        <Box sx={{ mx: 'auto' }} />        
+        <Link href="/about">
+          <A variant="styles.navitem">About</A>
+        </Link>
         <Link href="/schedule">
           <A variant="styles.navitem">Schedule</A>
         </Link>
         <Link href="/register">
           <A variant="styles.navitem">Register</A>
         </Link>
-        <Link href="/about">
-          <A variant="styles.navitem">About</A>
-        </Link>
+
         <ColorButton
           sx={{ ml: [2, 3] }}
           onClick={e => {
