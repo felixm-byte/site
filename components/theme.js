@@ -22,8 +22,8 @@ export const palette = {
   snow: '#f9fafc',
   white: '#ffffff',
   // brand
-  primary: '#ffb400',
-  primaryWash: '#ffdc89',
+  primary: '#3D3B8E',
+  primaryWash: '#6883BA',
   /*
   alt: '#007a87',
   altWash: '#bfe6ea',
@@ -39,7 +39,7 @@ export const palette = {
   cool: '#00bdde',
   coolWash: '#7cecff'
   */
-  alt: '#13cfbf',
+  alt: '#6883BA',
   altDark: '#05386b',
   altLight: '#6ed5fa',
   altWash: '#379683',
@@ -50,7 +50,7 @@ export const palette = {
   accentDark: '#189975',
   success: '#3fb34f',
   error: '#b23f42',
-  cool: '#00bdde',
+  cool: '#B0E298',
   coolWash: '#7cecff',
   lemonade: '#ff5a5f'
 }
@@ -90,7 +90,7 @@ const theme = merge(base, {
   },
   fonts: {
     body:
-      'Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif',
+      'Raleway,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif',
     heading: 'inherit',
     mono: 'Menlo, monospace'
   },
