@@ -1,2 +1,2 @@
-# Hack for Tomorrow Site
+# Code for Impact Site
 MIT License
