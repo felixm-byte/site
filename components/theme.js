@@ -1,13 +1,8 @@
-
 import base from '@rebass/preset'
 import { merge } from 'lodash'
-
 export const breakpoints = [32, 48, 64].map(w => `${w}em`)
-
 export const space = [0, 4, 8, 16, 32, 64, 128, 256, 512]
-
 export const fontSizes = [14, 16, 20, 24, 32, 48, 64, 96, 128]
-
 export const palette = {
   darker: '#121217',
   dark: '#17171d',
@@ -22,8 +17,8 @@ export const palette = {
   snow: '#f9fafc',
   white: '#ffffff',
   // brand
-  primary: '#ffb400',
-  primaryWash: '#ffdc89',
+  primary: '#3D3B8E',
+  primaryWash: '#6883BA',
   /*
   alt: '#007a87',
   altWash: '#bfe6ea',
@@ -39,7 +34,7 @@ export const palette = {
   cool: '#00bdde',
   coolWash: '#7cecff'
   */
-  alt: '#13cfbf',
+  alt: '#6883BA',
   altDark: '#05386b',
   altLight: '#6ed5fa',
   altWash: '#379683',
@@ -50,11 +45,10 @@ export const palette = {
   accentDark: '#189975',
   success: '#3fb34f',
   error: '#b23f42',
-  cool: '#00bdde',
+  cool: '#B0E298',
   coolWash: '#7cecff',
   lemonade: '#ff5a5f'
 }
-
 const theme = merge(base, {
   breakpoints,
   space,
@@ -90,7 +84,7 @@ const theme = merge(base, {
   },
   fonts: {
     body:
-      'Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif',
+      'Raleway,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif',
     heading: 'inherit',
     mono: 'Menlo, monospace'
   },
@@ -195,5 +189,4 @@ const theme = merge(base, {
     }
   }
 })
-
 export default theme

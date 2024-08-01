@@ -5,8 +5,8 @@
   "author": "@lachlanjc and AngelHacks <hello@angelhacks.org>",
   "license": "MIT",
   "scripts": {
-    "build": "node_modules/.bin/next build && node_modules/.bin/next export",
-    "start": "node_modules/.bin/next"
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && npm install && node_modules/.bin/next build && node_modules/.bin/next export",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && node_modules/.bin/next"
   },
   "dependencies": {
     "@emotion/styled": "^10.0.17",
@@ -21,6 +21,7 @@
     "next": "^9.0.7",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
+    "react-scripts": "^5",
     "rebass": "^4.0.6",
     "theme-ui": "^0.2.43"
   }

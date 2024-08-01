@@ -1,8 +1,8 @@
 import Head from 'next/head'
 
 export default ({
-  title = 'AngelHacks – Dedicated to giving back!',
-  description = 'A 12-hour hackathon for middle and high schoolers in Los Angeles.',
+  title = 'Code for Impact',
+  description = 'Learn how to maximise your impact, and create an awesome project, in this 2-day hackathon.',
   image = 'https://angelhacks.org/public/banner-inverted.png',
   url = 'https://angelhacks.org'
 }) => (
@@ -20,7 +20,7 @@ export default ({
     <meta property="og:image" content={image} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content={image} />
-    <script
+    {/* <script
       type="application/ld+json"
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
@@ -91,6 +91,6 @@ export default ({
           }
         })
       }}
-    />
+    /> */}
   </Head>
 )

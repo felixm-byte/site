@@ -3,7 +3,6 @@ import { useColorMode } from 'theme-ui'
 import Link from 'next/link'
 import Icon from './icon'
 import Avatar from './avatar'
-
 const ColorButton = ({ mode, sx, ...props }) => (
   <Box
     as="button"
@@ -40,10 +39,8 @@ const ColorButton = ({ mode, sx, ...props }) => (
     </svg>
   </Box>
 )
-
 export default props => {
   const [mode, setMode] = useColorMode()
-
   return (
     <>
       <Flex
@@ -62,19 +59,20 @@ export default props => {
             variant="styles.navitem"
             sx={{ display: ['none', 'block'], fontWeight: 'mediumbold' }}
           >
-            AngelHacks
+            Code for Impact
           </A>
         </Link>
-        <Box sx={{ mx: 'auto' }} />
+        <Box sx={{ mx: 'auto' }} />        
+        <Link href="/about">
+          <A variant="styles.navitem">About</A>
+        </Link>
         <Link href="/schedule">
           <A variant="styles.navitem">Schedule</A>
         </Link>
         <Link href="/register">
           <A variant="styles.navitem">Register</A>
         </Link>
-        <Link href="/about">
-          <A variant="styles.navitem">About</A>
-        </Link>
+
         <ColorButton
           sx={{ ml: [2, 3] }}
           onClick={e => {
@@ -138,7 +136,7 @@ export default props => {
             }}
           >
             <Text sx={{ fontFamily: 'heading', fontSize: 0, color: 'inherit' }}>
-              AngelHacks, event run by Ad Astra Hack Club
+              Code for Impact
             </Text>
             <Text
               sx={{
@@ -148,9 +146,7 @@ export default props => {
                 mb: 0
               }}
             >
-              Fiscally sponsored by The Hack Foundation.
-              <br />
-              Nonprofit EIN: 81-2908499.
+              Website in progress - more info coming soon.
             </Text>
           </Box>
         </Box>
