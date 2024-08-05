@@ -110,7 +110,7 @@ export default props => {
           }}
         >
           <Flex sx={{ justifyContent: 'center' }}>
-            <A
+            [<A
               href="https://instagram.com/angelhacks.la"
               title="Instagram"
               sx={{ mx: 2 }}
@@ -126,7 +126,7 @@ export default props => {
             </A>
             <A href="mailto:claire@angelhacks.org" title="Email" sx={{ mx: 2 }}>
               <Icon glyph="email" size={36} />
-            </A>
+            </A>]: #
           </Flex>
           <Box
             sx={{
