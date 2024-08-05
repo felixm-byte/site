@@ -3,8 +3,8 @@ import Head from 'next/head'
 export default ({
   title = 'Code for Impact',
   description = 'Learn how to maximise your impact, and create an awesome project, in this 2-day hackathon.',
-  image = 'https://angelhacks.org/public/banner-inverted.png',
-  url = 'https://angelhacks.org'
+  image = 'https://?',
+  url = 'https://?'
 }) => (
   <Head>
     <title>{title}</title>
@@ -12,7 +12,7 @@ export default ({
     <meta name="twitter:title" content={title} />
     <meta name="og:url" content={url} />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="AngelHacks" />
+    <meta property="og:site_name" content="Code for Impact" />
     <meta name="twitter:site" content="@angelhacks_la" />
     <meta name="description" content={description} />
     <meta property="og:description" content={description} />
@@ -51,7 +51,7 @@ export default ({
         __html: JSON.stringify({
           '@context': 'http://schema.org/',
           '@type': 'Event',
-          name: 'AngelHacks',
+          name: 'Code for Impact Virtual Hackathon',
           startDate: '2019-10-26T9:00',
           endDate: '2019-10-26T21:00',
           description:
