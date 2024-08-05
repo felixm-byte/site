@@ -6,14 +6,14 @@ export default ({ size = 50, light = false, ...props }) => (
     <A sx={{ cursor: 'pointer', lineHeight: 0 }}>
       <Image
         {...props}
-        src="/static/logo-inverted.png"
+        src={`https://image-store-5tn.pages.dev/public/code-for-impact-logo.png`}
         alt="AngelHacks avatar"
         width={size}
         height={size}
         sx={{
           borderRadius: 'circle',
           overflow: 'hidden',
-          bg: 'primary',
+          bg: 'slate',
           ...props.sx
         }}
       />

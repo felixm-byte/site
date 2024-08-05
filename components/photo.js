@@ -1,8 +1,7 @@
 import styled from '@emotion/styled'
-import { Box, Text, Image } from 'rebass'
+import { Box, Text, Image} from 'rebass'
 import { useColorMode } from 'theme-ui'
 import theme from './theme'
-
 const Caption = styled(Text)`
   display: block;
   font-size: ${theme.fontSizes[1]}px;

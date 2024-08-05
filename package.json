@@ -1,12 +1,12 @@
 {
-  "name": "@angelhacks/site",
+  "name": "@codeforimpact/site",
   "version": "1.0.0",
   "private": true,
-  "author": "@lachlanjc and AngelHacks <hello@angelhacks.org>",
+  "author": "Felix @ Code for Impact",
   "license": "MIT",
   "scripts": {
     "build": "export NODE_OPTIONS=--openssl-legacy-provider && npm install && node_modules/.bin/next build && node_modules/.bin/next export",
-    "start": "export NODE_OPTIONS=--openssl-legacy-provider && node_modules/.bin/next"
+    "start": "npm install && node_modules/.bin/next"
   },
   "dependencies": {
     "@emotion/styled": "^10.0.17",

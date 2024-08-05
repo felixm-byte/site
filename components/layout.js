@@ -146,7 +146,7 @@ export default props => {
                 mb: 0
               }}
             >
-              Website in progress - more info coming soon.
+              Code for Impact is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499).
             </Text>
           </Box>
         </Box>
