@@ -111,20 +111,13 @@ export default props => {
         >
           [<Flex sx={{ justifyContent: 'center' }}>
             <A
-              href="https://instagram.com/angelhacks.la"
-              title="Instagram"
+              href="https://discord.gg/n6V5SNWqzv"
+              title="Discord"
               sx={{ mx: 2 }}
             >
-              <Icon glyph="instagram" size={36} />
+              <Icon glyph="discord" size={36} />
             </A>
-            <A
-              href="https://github.com/angelhacks/site"
-              title="GitHub"
-              sx={{ mx: 2 }}
-            >
-              <Icon glyph="github" size={36} />
-            </A>
-            <A href="mailto:claire@angelhacks.org" title="Email" sx={{ mx: 2 }}>
+            <A href="mailto:graphicvoxel@gmail.com" title="Email" sx={{ mx: 2 }}>
               <Icon glyph="email" size={36} />
             </A>
           </Flex>]: #
