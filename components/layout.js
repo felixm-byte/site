@@ -109,7 +109,7 @@ export default props => {
             py: 3
           }}
         >
-          [<Flex sx={{ justifyContent: 'center' }}>
+          <Flex sx={{ justifyContent: 'center' }}>
             <A
               href="https://discord.gg/n6V5SNWqzv"
               title="Discord"
@@ -117,10 +117,10 @@ export default props => {
             >
               <Icon glyph="discord" size={36} />
             </A>
-            <A href="mailto:graphicvoxel@gmail.com" title="Email" sx={{ mx: 2 }}>
+            <A href="mailto:contact@codeforimpact.dev" title="Email" sx={{ mx: 2 }}>
               <Icon glyph="email" size={36} />
             </A>
-          </Flex>]: #
+          </Flex>
           <Box
             sx={{
               mt: [3, 4],
