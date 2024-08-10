@@ -16,7 +16,7 @@ const data = {
     },
 
   ],
-  additionalSupport: [
+  resourcesAdaptedFrom: [
     {
       name: '80,000 Hours',
       link: 'https://80000hours.org/',
