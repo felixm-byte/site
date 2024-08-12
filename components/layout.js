@@ -53,7 +53,9 @@ export default props => {
           py: 3
         }}
       >
+        <Link href="/">        
         <Avatar light size={60} sx={{ mr: 1 }} />
+        </Link>
         <Link href="/">
           <A
             variant="styles.navitem"
@@ -115,7 +117,7 @@ export default props => {
               title="Discord"
               sx={{ mx: 2 }}
             >
-              <Icon glyph="discord" size={36} />
+              <Icon glyph="member-add" size={36} />
             </A>
             <A href="mailto:contact@codeforimpact.dev" title="Email" sx={{ mx: 2 }}>
               <Icon glyph="email" size={36} />
