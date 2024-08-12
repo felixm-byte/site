@@ -3,8 +3,8 @@ import Head from 'next/head'
 export default ({
   title = 'Code for Impact',
   description = 'Learn how to maximise your impact, and create an awesome project, in this 2-day hackathon.',
-  image = 'https://?',
-  url = 'https://?'
+  image = 'https://image-store-5tn.pages.dev/public/code-for-impact-logo.png',
+  url = 'https://codeforimpact.dev'
 }) => (
   <Head>
     <title>{title}</title>
