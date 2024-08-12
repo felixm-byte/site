@@ -53,7 +53,9 @@ export default props => {
           py: 3
         }}
       >
+        <Link href="/">        
         <Avatar light size={60} sx={{ mr: 1 }} />
+        </Link>
         <Link href="/">
           <A
             variant="styles.navitem"
