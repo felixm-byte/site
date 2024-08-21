@@ -9,6 +9,16 @@ const data = {
   sponsors: [
 
     {
+      name: 'FlatLogic',
+      link: 'https://flatlogic.com',
+      image:
+        'https://flatlogic.com/assets/icons/footer_logo-de78b41db6b030c9df0959f026e09cba40cf81695fbc7f09c62390ba2cf3ea81.svg'
+    },
+
+  ],
+  fiscalSponsor: [
+
+    {
       name: 'HCB',
       link: 'https://hackclub.com/bank',
       image:
