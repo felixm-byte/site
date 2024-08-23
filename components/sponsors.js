@@ -7,19 +7,19 @@ import theme from './theme'
 
 const data = {
   sponsors: [
-
-    {
-      name: 'Flatlogic',
-      link: 'https://flatlogic.com',
-      image:
-        'https://flatlogic.com/assets/icons/footer_logo-de78b41db6b030c9df0959f026e09cba40cf81695fbc7f09c62390ba2cf3ea81.svg'
-    },
     {
       name: 'Art of Problem Solving',
       link: 'https://artofproblemsolving.com',
       image:
         'https://tipalti.com/wp-content/themes/Tipalti-GoTeam/assets/customer-logos/logo-aops-MC-D.svg'
     },
+    {
+      name: 'Flatlogic',
+      link: 'https://flatlogic.com',
+      image:
+        'https://flatlogic.com/assets/icons/footer_logo-de78b41db6b030c9df0959f026e09cba40cf81695fbc7f09c62390ba2cf3ea81.svg'
+    },
+
     {
       name: 'GenXYZ',
       link: 'https://gen.xyz',
