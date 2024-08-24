@@ -13,7 +13,6 @@ export default ({
     <meta name="og:url" content={url} />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Code for Impact" />
-    <meta name="twitter:site" content="@angelhacks_la" />
     <meta name="description" content={description} />
     <meta property="og:description" content={description} />
     <meta name="twitter:description" content={description} />
@@ -26,20 +25,15 @@ export default ({
         __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'Organization',
-          name: 'angelhacks',
-          url: 'https://angelhacks.org',
-          logo: 'https://angelhacks.org/logo_inverted.png',
-          sameAs: [
-            'https://twitter.com/angelhacks_la',
-            'https://www.instagram.com/angelhacks.la',
-            'https://www.facebook.com/angelhacks_la'
-          ],
+          name: 'codeforimpact',
+          url: 'https://codeforimpact.dev',
+          logo: 'https://image-store-5tn.pages.dev/public/code-for-impact-logo.png',
           contactPoint: [
             {
               '@type': 'ContactPoint',
-              email: 'hello@angelhacks.org',
+              email: 'felix@codeforimpact.dev',
               contactType: 'customer support',
-              url: 'https://angelhacks.org'
+              url: 'https://codeforimpact.dev'
             }
           ]
         })
@@ -52,23 +46,16 @@ export default ({
           '@context': 'http://schema.org/',
           '@type': 'Event',
           name: 'Code for Impact Virtual Hackathon',
-          startDate: '2019-10-26T9:00',
-          endDate: '2019-10-26T21:00',
+          startDate: '2024-09-28',
+          endDate: '2024-09-29',
           description:
             'Register today for 12 hours of coding, fun, free food, and prizes. AngelHacks will be on October 26, 2019 and open to all middle and high school students.',
           isAccessibleForFree: true,
-          url: 'https://angelhacks.org',
+          url: 'https://codeforimpact.dev',
           image: 'https://angelhacks.org/public/logo-inverted.png',
           location: {
             '@type': 'Place',
-            name: 'Snapchat Headquarters',
-            address: {
-              '@type': 'PostalAddress',
-              addressLocality: 'Los Angeles',
-              addressRegion: 'CA',
-              postalCode: '90291',
-              streetAddress: '606 Venice Blvd., Venice 90291'
-            }
+            name: 'Online event',
           },
           sponsor: {
             '@type': 'Organization',
@@ -78,16 +65,16 @@ export default ({
           offers: {
             '@type': 'Offer',
             name: 'Free Admission',
-            url: 'https://angelhacks.com',
+            url: 'https://codeforimpact.dev',
             price: '0',
             priceCurrency: 'USD',
             availability: 'https://schema.org/InStock',
-            validFrom: '2019-04-01',
-            validThrough: '2019-06-22'
+            validFrom: '2024-05-20',
+            validThrough: '2019-09-27'
           },
           performer: {
             '@type': 'PerformingGroup',
-            name: 'AngelHacks Ad Astra Team'
+            name: 'Code for Impact team + sponsors'
           }
         })
       }}

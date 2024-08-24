@@ -8,10 +8,22 @@ import theme from './theme'
 const data = {
   sponsors: [
     {
+      name: 'APEERS',
+      link: 'https://apeers.org/',
+      image:
+        'https://apeers.org/_next/image?url=%2Fimages%2Flogos%2Flogo.png&w=256&q=75'
+    },
+    {
       name: 'Art of Problem Solving',
       link: 'https://artofproblemsolving.com',
       image:
-        'https://tipalti.com/wp-content/themes/Tipalti-GoTeam/assets/customer-logos/logo-aops-MC-D.svg'
+        'https://s3.amazonaws.com/challengepost/sponsors/logos/000/036/693/highres/AoPS_Main_Logo_%281%29.png'
+    },
+    {
+      name: 'Axure',
+      link: 'https://axure.com',
+      image:
+        'https://s3.amazonaws.com/challengepost/sponsors/logos/000/036/687/highres/Axure_logo_400_1x.png'
     },
     {
       name: 'Flatlogic',
@@ -25,6 +37,12 @@ const data = {
       link: 'https://gen.xyz',
       image:
         'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/.xyz_logo.svg/1920px-.xyz_logo.svg.png'
+    },
+    {
+      name: 'HowToHackathon',
+      link: 'https://howtohackathon.xyz',
+      image:
+        'https://s3.amazonaws.com/challengepost/sponsors/logos/000/033/865/highres/Howtohacklogo.png'
     },
 
   ],
