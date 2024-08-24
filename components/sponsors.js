@@ -11,7 +11,7 @@ const data = {
       name: 'APEERS',
       link: 'https://apeers.org/',
       image:
-        'https://apeers.org/_next/image?url=%2Fimages%2Flogos%2Flogo.png&w=256&q=75'
+        'https://cloud-8exu5zwju-hack-club-bot.vercel.app/0image.png'
     },
     {
       name: 'Art of Problem Solving',
