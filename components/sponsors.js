@@ -44,7 +44,12 @@ const data = {
       image:
         'https://s3.amazonaws.com/challengepost/sponsors/logos/000/033/865/highres/Howtohacklogo.png'
     },
-
+    {
+      name: 'Wolfram',
+      link: 'https://wolfram.com',
+      image:
+        'https://content.wolfram.com/sites/10/2019/04/wolfram-corporate-logo-horz-med.png'
+    },
   ],
   fiscalSponsor: [
 
