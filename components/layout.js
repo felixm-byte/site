@@ -68,11 +68,8 @@ export default props => {
         <Link href="/about">
           <A variant="styles.navitem">About</A>
         </Link>
-        <Link href="/schedule">
-          <A variant="styles.navitem">Schedule</A>
-        </Link>
         <Link href="/register">
-          <A variant="styles.navitem">Register</A>
+          <A variant="styles.navitem">Sign up for updates</A>
         </Link>
 
         <ColorButton
